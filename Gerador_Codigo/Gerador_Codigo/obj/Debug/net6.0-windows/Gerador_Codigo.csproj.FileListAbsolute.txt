@@ -1,0 +1,89 @@
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Gerador de Codigo.exe
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Gerador de Codigo.deps.json
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Gerador de Codigo.runtimeconfig.json
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Gerador de Codigo.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\ref\Gerador de Codigo.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Gerador de Codigo.pdb
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Azure.Core.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Azure.Identity.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\BouncyCastle.Crypto.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Dapper.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Google.Protobuf.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Humanizer.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\K4os.Compression.LZ4.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\K4os.Compression.LZ4.Streams.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\K4os.Hash.xxHash.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Bcl.AsyncInterfaces.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Data.SqlClient.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Abstractions.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Design.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.Relational.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.EntityFrameworkCore.SqlServer.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Abstractions.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Caching.Memory.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.DependencyInjection.Abstractions.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Logging.Abstractions.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Options.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Extensions.Primitives.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.Identity.Client.Extensions.Msal.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.JsonWebTokens.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Logging.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Protocols.OpenIdConnect.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Microsoft.IdentityModel.Tokens.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\MySql.Data.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Ubiety.Dns.Core.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\ZstdNet.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\MySqlConnector.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Ninject.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Npgsql.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Npgsql.EntityFrameworkCore.PostgreSQL.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Pomelo.EntityFrameworkCore.MySql.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\System.IdentityModel.Tokens.Jwt.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\System.Runtime.Caching.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\unix\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win\lib\netcoreapp3.1\Microsoft.Data.SqlClient.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win-arm\native\Microsoft.Data.SqlClient.SNI.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win-arm64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win-x64\native\Microsoft.Data.SqlClient.SNI.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win-x86\native\Microsoft.Data.SqlClient.SNI.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\runtimes\win\lib\netstandard2.0\System.Runtime.Caching.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.FormEscolherBanco.resources
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.csproj.GenerateResource.cache
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.GeneratedMSBuildEditorConfig.editorconfig
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.AssemblyInfoInputs.cache
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.AssemblyInfo.cs
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.csproj.CoreCompileInputs.cache
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.csproj.CopyComplete
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador de Codigo.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\ref\Gerador de Codigo.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador de Codigo.pdb
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.genruntimeconfig.cache
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\Gerador_Codigo.csproj.AssemblyReference.cache
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\View.FrmConexao.resources
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\SplashScreen.resources
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\View.FrmWait.resources
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\obj\Debug\net6.0-windows\View.FrmWaitSelect.resources
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Compression.Base.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Core.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Data.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.SfDataGridConverter.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.DataSource.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Grid.Windows.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.GridCommon.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Licensing.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Pdf.Base.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.SfDataGrid.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.SfInput.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.SfListView.WinForms.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Shared.Base.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Shared.Windows.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.SpellChecker.Base.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Tools.Base.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.Tools.Windows.dll
+C:\_Lab\Gerador de Codigo C#\Gerador_Codigo\Gerador_Codigo\bin\Debug\net6.0-windows\Syncfusion.XlsIO.Base.dll

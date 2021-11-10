@@ -11,12 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Gerador_Codigo")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Gerador de Codigo")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
 [assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
-[assembly: System.Reflection.AssemblyProductAttribute("Gerador_Codigo")]
-[assembly: System.Reflection.AssemblyTitleAttribute("Gerador_Codigo")]
+[assembly: System.Reflection.AssemblyProductAttribute("Gerador de Codigo")]
+[assembly: System.Reflection.AssemblyTitleAttribute("Gerador de Codigo")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
 [assembly: System.Runtime.Versioning.TargetPlatformAttribute("Windows7.0")]
 [assembly: System.Runtime.Versioning.SupportedOSPlatformAttribute("Windows7.0")]
