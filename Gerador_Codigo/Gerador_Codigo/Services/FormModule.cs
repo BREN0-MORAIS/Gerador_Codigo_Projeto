@@ -1,5 +1,6 @@
 ﻿using Gerador_Codigo.Configuration;
 using Gerador_Codigo.Data.Context;
+using Gerador_Codigo.Data.Services;
 using Ninject.Modules;
 using System.Windows.Forms;
 
@@ -14,7 +15,8 @@ namespace Gerador_Codigo.Services
 
             try
             {
-                Bind<ApplicationDbContext>().To<ApplicationDbContext>(); ;
+                //Bind<ApplicationDbContext>().To<ApplicationDbContext>(); ;
+                Bind<IRepositoryDapper>().To<RepositorySqlServerDapper>(); ;
 
             }
             catch

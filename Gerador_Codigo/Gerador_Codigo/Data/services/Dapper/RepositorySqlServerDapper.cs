@@ -14,16 +14,18 @@ namespace Gerador_Codigo.Data.Services
         private readonly ApplicationDbContext _db;
         private string _connectionString = string.Empty;
 
+        public RepositorySqlServerDapper()
+        {
+            _connectionString = $@"Server = .\SQL2019; Database = Geo_GauchaNorte_2021; User = sa; Password = estadao";
+        }
         public RepositorySqlServerDapper(ApplicationDbContext db)
         {
             _db = db;
-            _connectionString = _db.Database.GetDbConnection().ConnectionString;
+            //_connectionString = _db.Database.GetDbConnection().ConnectionString;
+            _connectionString = $@"Server = .\SQL2019; Database = Geo_GauchaNorte_2021; User = sa; Password = estadao";
         }
 
-        public void Dispose()
-        {
-            _db.Dispose();
-        }
+        
 
         public T RetornarObjeto<T>(string procedureName, DynamicParameters param = null, CommandType commandType = CommandType.Text)
         {
@@ -65,7 +67,7 @@ namespace Gerador_Codigo.Data.Services
 
             return true;
         }
-
+        public void Dispose() => _db.Dispose();
         public string ObterNomeBanco()
         {
             throw new NotImplementedException();

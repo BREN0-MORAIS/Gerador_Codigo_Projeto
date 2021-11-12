@@ -1,3 +1,4 @@
+using Gerador_Codigo.Services;
 using System;
 using System.Windows.Forms;
 
@@ -15,6 +16,7 @@ namespace Gerador_Codigo
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
             Application.Run(new FormEscolherBanco());
+            //FormResolve.Resolve<FormEscolherBanco>().Show();
         }
     }
 }
