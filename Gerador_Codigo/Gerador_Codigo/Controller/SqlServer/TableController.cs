@@ -17,7 +17,7 @@ namespace Gerador_Codigo.Controller
 
         public List<Table> ObterTodosTabela(string nomeBanco)
         {
-            var sql = $"{ObterConsultaTabela()} WHERE WHERE TABLE_CATALOG ='{nomeBanco}'";
+            var sql = $"USE {nomeBanco}  \n{ObterConsultaTabela()} WHERE WHERE TABLE_CATALOG ='{nomeBanco}'";
             var query = _dapper.RetornarLista<Table>(sql).ToList();
             if (query == null) return null;
 
@@ -26,7 +26,7 @@ namespace Gerador_Codigo.Controller
 
         public List<string> ObterTodosNomeTabela(string nomeBanco)
         {
-            var sql = $"{ObterConsultaTabela()} WHERE TABLE_CATALOG ='{nomeBanco}'";
+            var sql = $"USE {nomeBanco}  \n{ObterConsultaTabela()} WHERE TABLE_CATALOG ='{nomeBanco}'";
             var query = _dapper.RetornarLista<Table>(sql)
                                 .OrderBy(c=> c.NomeDaTabela)
                                 .Select(x => x.NomeDaTabela)
@@ -39,7 +39,7 @@ namespace Gerador_Codigo.Controller
 
         public List<Table> ObterTodosNomeColunasTabela(string nomeBanco,string nomeTabela)
         {
-            var sql = $"{ObterConsultaTabela()} WHERE TABLE_CATALOG ='{nomeBanco}' AND TABLE_NAME = '{nomeTabela}' ";
+            var sql = $"USE {nomeBanco}  \n {ObterConsultaTabela()} WHERE TABLE_CATALOG ='{nomeBanco}' AND TABLE_NAME = '{nomeTabela}' ";
             var query = _dapper.RetornarLista<Table>(sql)
                                 .OrderBy(c => c.NomeDaColuna)
                                 //.Select(x => x.NomeDaTabela)

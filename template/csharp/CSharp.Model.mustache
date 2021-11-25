@@ -1,0 +1,33 @@
+/*******************************************************************************
+Title: Gerador de Código 1.0                                                               
+Description: Model relacionado à tabela [{{table}}] 
+                                                                                
+The MIT License                                                                 
+                                                                                
+Copyright: Copyright (C) 2021                                         
+                                                         
+@author Edielson Silverio (edielson.silverio@gmail.com)                    
+@version 1.0.0
+*******************************************************************************/
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+{{#imports}}
+{{{.}}}
+{{/imports}}
+
+namespace Models
+{
+    [Table("{{table}}")]
+    public class {{classe}}
+    {	
+		{{#atribut}}
+		{{{.}}}
+		{{/atribut}}
+		{{#atributObj}}
+		{{{.}}}
+		{{/atributObj}}
+		{{#atributList}}
+		{{{.}}}
+		{{/atributList}}
+    }
+}

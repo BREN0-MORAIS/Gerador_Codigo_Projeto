@@ -23,6 +23,7 @@
     <PackageReference Include="Syncfusion.DataGridExport.WinForms" Version="19.3.0.48" />
     <PackageReference Include="Syncfusion.SfDataGrid.WinForms" Version="19.3.0.48" />
     <PackageReference Include="Syncfusion.Tools.Windows" Version="19.3.0.48" />
+    <PackageReference Include="SyncSoft.App.HandlebarsDotNet" Version="4.0.1" />
   </ItemGroup>
 
 </Project>

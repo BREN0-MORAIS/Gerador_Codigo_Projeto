@@ -2,6 +2,7 @@
 using Gerador_Codigo.Data.Services;
 using System;
 using System.Windows.Forms;
+using View;
 
 namespace Gerador_Codigo
 {
@@ -10,6 +11,7 @@ namespace Gerador_Codigo
         private readonly DatabaseController _controllerDatabase;
         private readonly TableController _controllerTable;
         private readonly IRepositoryDapper _dapper;
+        private string _database;
         public FormEscolherBanco()
         {
             InitializeComponent();
@@ -34,9 +36,13 @@ namespace Gerador_Codigo
 
         private void btnTable_Click(object sender, EventArgs e)
         {
-            string database = "Geo_GauchaNorte_2021";
+            CarregarTabelasBancoDeDados();
+        }
+
+        private void CarregarTabelasBancoDeDados()
+        {
             clbTable.DataSource = null;
-            var query = _controllerTable.ObterTodosNomeTabela(database);
+            var query = _controllerTable.ObterTodosNomeTabela(_database);
             if (query == null) return;
 
             clbTable.DataSource = query;
@@ -44,15 +50,49 @@ namespace Gerador_Codigo
 
         private void btnCarregarColunas_Click(object sender, EventArgs e)
         {
-            string database = "Geo_GauchaNorte_2021";
-            string table = "App_Fea";
-            dgvResultado.DataSource = null;
-            var query = _controllerTable.ObterTodosNomeColunasTabela(database, table);
-            if (query == null) return;
+            var listaTabela = ManageCheckListBox.LoadDataChecklistbox(clbTable);
+            lsbResultado.Items.Clear();
+            foreach (var tabela in listaTabela)
+            {
+                dgvResultado.DataSource = null;
+                var query = _controllerTable.ObterTodosNomeColunasTabela(_database, tabela.ToString());
+                if (query == null) return;
 
-            dgvResultado.DataSource = query;
-            dgvResultado.Columns["Id"].Visible = false;
-            dgvResultado.Columns["NomeDaTabela"].Visible = false;
+                foreach (var coluna in query)
+                {
+                    var texto =$"Tabela: {tabela} - {coluna.NomeDaColuna} - {coluna.TipoDaColuna} - Tipo: {coluna.TipoDaColuna} - Tipo Mapping: {coluna.TipoDaColunaMappingMaxLength}";
+                    lsbResultado.Items.Add(texto);
+                }
+                dgvResultado.DataSource = query;
+                dgvResultado.Columns["Id"].Visible = false;
+                dgvResultado.Columns["NomeDaTabela"].Visible = false;
+            }
+           
+        }
+
+        private void clbDatabase_ItemCheck(object sender, ItemCheckEventArgs e)
+        {
+            try
+            {
+                for (int i = 0; i < clbDatabase.Items.Count; ++i)
+                {
+                    if (i != e.Index)
+                        clbDatabase.SetItemChecked(i, false);
+                    else
+                    {
+                        _database = clbDatabase.Text;
+                        CarregarTabelasBancoDeDados();
+                    }
+                        
+                }
+
+                if (clbDatabase.GetItemCheckState(clbDatabase.SelectedIndex) == CheckState.Checked)
+                    clbDatabase.DataSource = null;
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show("Erro ao selecionar componente. \n" + ex.Message, "Aviso");
+            }
         }
     }
 }
